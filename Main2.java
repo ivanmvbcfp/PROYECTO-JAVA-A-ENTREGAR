@@ -1,16 +1,14 @@
 
-package misrc;
+package MAIN;
 
 
 public class Main2 {
 
-  
+
     public static void main(String[] args) {
-        for (int i=0; i<= 100; i++) {
-            if((i % 2) == 0) {
-                System.out.println(i);
-            }
-        }
+        char[] caracter = {'8','0','1','A'};
+        String cadena = String.valueOf(caracter);
+        System.out.println(cadena);
     }
     
 }
